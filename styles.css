@@ -27,3 +27,38 @@
     background-color: #04AA6D;
     color: white;
   }
+
+  /*Background*/
+  .background,img{
+      width: 1333px;
+      height: 100vh;
+      
+    }
+/* Add a black background color to the top navigation */
+.Info  {
+  background-color: rgb(255, 254, 254);
+  overflow: hidden;
+  height: 400px;
+}
+
+/* Style the links inside the information bar */
+.Info a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.Info a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.Info a.active {
+  background-color: #04AA6D;
+  color: white;
+}
